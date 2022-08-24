@@ -1,0 +1,30 @@
+package com.java;
+
+public class Employeedetails {
+	private int id;
+	private String firstName;
+	private String lastName;
+	private int Salary;
+	public Employeedetails(int id, String firstName,String lastName,int Salary) {
+		super();
+		this.id=id;
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.Salary=salary;
+	}
+	public int getId() {
+		return id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	
+	
+		
+		
+	}
+
+}

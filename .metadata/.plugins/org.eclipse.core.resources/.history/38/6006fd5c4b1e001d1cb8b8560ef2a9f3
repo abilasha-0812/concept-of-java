@@ -1,0 +1,18 @@
+package com.java;
+
+public class EnhancedSwitch {
+	public static void main(String[] args) {
+		int itemCode=1;
+		switch(itemCode)
+		{
+		case 1,2,3:
+			System.out.println("Hello World!");
+		    break;
+		case 6,7:
+			System.out.println("Good Morning..");
+		default:
+			System.out.println("Wrong input!");
+		}
+	}
+
+}

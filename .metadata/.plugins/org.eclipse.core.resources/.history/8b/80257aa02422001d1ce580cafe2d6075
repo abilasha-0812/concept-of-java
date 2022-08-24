@@ -1,0 +1,22 @@
+package com.java;
+
+public class Employeedetails {
+	int id,firstName,lastName,Salary,AnnualSalary;
+	public int getid() {
+		return id;
+	}
+	public void setid(int id) {
+		this.id=id;
+	}
+	public int getSalary() {
+		return Salary;
+	}
+	public void setSalary(int Salary) {
+		this.Salary=Salary;
+	}
+	
+		
+		
+	}
+
+}
